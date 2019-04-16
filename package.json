@@ -1,0 +1,49 @@
+{
+  "name": "react-responsive-menubar",
+  "version": "1.0.0",
+  "description": "A responsive menubar React Js component",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhdfaisal/react-responsive-menubar.git"
+  },
+  "keywords": [
+    "npm",
+    "react-nav",
+    "react-menubar",
+    "react-responsive-menubar",
+    "react-sidenav",
+    "react-menu",
+    "react-js"
+  ],
+  "peerDependencies": {
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "path": "^0.12.7",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^3.2.1",
+    "style-loader": "^0.23.1",
+    "css-loader": "^2.1.1",
+    "uuid": "^3.3.2"
+  },
+  "author": "Mohd Faisal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mhdfaisal/react-responsive-menubar/issues"
+  },
+  "homepage": "https://github.com/mhdfaisal/react-responsive-menubar#readme"
+}

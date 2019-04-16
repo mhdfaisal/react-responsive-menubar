@@ -1,0 +1,69 @@
+.menu__button{
+    height: 35px;
+    width:  35px;
+    overflow: hidden;
+    border: none;
+    outline:none;
+    background:transparent;
+    cursor: pointer;
+    position: relative;
+}
+.menu__button:visited, .menu__button:hover, .menu__button:active{
+    outline:none;
+}
+
+.menu__icon{
+    width:65%;
+    height:2px;
+    background: #000;
+    box-sizing: border-box;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    position: absolute;
+    transition: all cubic-bezier(0.25,0.1,0.28,1.54) 0.32s;
+    -webkit-transition: all cubic-bezier(0.25,0.1,0.28,1.54) 0.32s;
+    -moz-transition: all cubic-bezier(0.25,0.1,0.28,1.54) 0.32s;
+    -ms-transition: all cubic-bezier(0.25,0.1,0.28,1.54) 0.32s;
+    -o-transition: all cubic-bezier(0.25,0.1,0.28,1.54) 0.32s;
+}
+
+.line1{
+    top:0%;
+    left:0%;
+}
+
+.line2{
+    left: 0%;
+    top:  25%;
+}
+
+.line3{
+    left:0;
+    top:50%;
+}
+
+
+.menu__button--active .line1{
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    top:39%;
+}
+
+.menu__button--active .line3{
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    top:39%;
+}
+
+.menu__button--active .line2{
+    display: none;
+}
