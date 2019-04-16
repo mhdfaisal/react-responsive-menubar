@@ -4,7 +4,7 @@
     overflow: hidden;
     border: none;
     outline:none;
-    background:transparent;
+    background: transparent;
     cursor: pointer;
     position: relative;
 }
@@ -31,18 +31,18 @@
 }
 
 .line1{
-    top:0%;
-    left:0%;
+    top:25%;
+    left:15%;
 }
 
 .line2{
-    left: 0%;
-    top:  25%;
+    left: 15%;
+    top:  50%;
 }
 
 .line3{
-    left:0;
-    top:50%;
+    left:15%;
+    top:75%;
 }
 
 
@@ -52,7 +52,7 @@
     -moz-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     -o-transform: rotate(45deg);
-    top:39%;
+    top:50%;
 }
 
 .menu__button--active .line3{
@@ -61,7 +61,7 @@
     -moz-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
     -o-transform: rotate(-45deg);
-    top:39%;
+    top:50%;
 }
 
 .menu__button--active .line2{
